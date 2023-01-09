@@ -57,4 +57,16 @@
   margin: 0 auto;
   height: 250px;
   border: 1px solid#CED4DA;
+  position: relative;
+  overflow: hidden;
+}
+
+.photoWrap img {
+  width: auto !important;
+  height: 100% !important;
+  border-radius: 0 !important;
+}
+
+.photoWrap span {
+  position: absolute;
 }
